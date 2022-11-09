@@ -5,6 +5,52 @@
     
 }
 
+.contenedor-total{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    height: 15vh;
+    background: beige;
+    color: rgb(59, 58, 58);
+}
+
+header h1{
+    text-align: center;
+    padding: 15px;
+}
+
+contenedor-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    border: 1px solid blue;
+    
+}
+
+.ilustracion{
+    width:90%;
+    border: 1px solid red;
+    margin: auto;
+
+}
+
+.ilustracion p{
+    text-align: center;
+    padding: 20px;
+}
+
 img{
-    width: 50%;
+    width: 80%;
+    border: 2px solid yellow;
+
 }
