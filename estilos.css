@@ -68,10 +68,11 @@ main{
     font-family: 'Caveat', cursive;
     font-weight: bold;
     color: #59434f;
+    letter-spacing: 2px;
 }
 
 img{
-    width: 50%;
+    width: 70%;
     /*border: 2px solid yellow;*/
     margin: 20px;
 }
