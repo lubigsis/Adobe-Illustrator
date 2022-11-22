@@ -8,19 +8,20 @@
 
 .contenedor-total{
     width: 100%;
-    max-width: 1200px;
+    max-width: 75em;
     display: flex;
     flex-direction: column;
     background-color: #fff;
+    font-size: 16px;
 }
 
 header{
     width: 100%;
-    max-width: 1200px;
+    max-width: 75em;
     height: 20vh;
     background: radial-gradient(#da077b 40%, #eee311);
     color: rgb(59, 58, 58);
-    border-radius: 50px;
+    border-radius: 3.125em;
     margin: 7px 10px;
 
 }
@@ -31,7 +32,7 @@ header h1{
     color: #fff;
     letter-spacing: 5px;
     font-family: 'Acme', sans-serif;
-    font-size: 50px;
+    font-size: 3.125em;
 }
 
 contenedor-main{
@@ -42,7 +43,7 @@ contenedor-main{
 }
 
 main{
-    width: 80%;
+    width: 90%;
     margin: auto;
    /* border: 1px solid blue;*/
    
@@ -50,7 +51,7 @@ main{
 }
 
 .ilustracion{
-    width:90%;
+    width:95%;
   /*  border: 1px solid red;*/
     margin: auto;
     display: flex;
@@ -64,7 +65,7 @@ main{
     text-align: center;
     padding: 10px;
     margin-top: 70px;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: 'Caveat', cursive;
     font-weight: bold;
     color: #59434f;
@@ -72,7 +73,93 @@ main{
 }
 
 img{
-    width: 70%;
+    width: 80%;
     /*border: 2px solid yellow;*/
     margin: 20px;
 }
+
+/*-----------------------------------------------------------Responsive----------------------------------------------------------*/
+
+@media screen and (max-width: 1200px){
+
+    .contenedor-total{
+        font-size: 14px;
+        margin: auto;
+    }
+
+    header{
+        padding: 30px;
+        width: 100%;
+        margin: 4px auto;
+        letter-spacing: 4px;
+      
+    }
+
+
+
+}
+
+@media screen and (max-width: 992px){
+
+    .contenedor-total{
+        font-size: 12px;
+    }
+
+    header{
+        padding: 13px;
+        height: 18vh;
+        letter-spacing: 3px;
+    }
+
+    
+    .ilustracion p{
+        padding: 8px;
+        margin-top: 50px;
+   }
+}
+
+
+@media screen and (max-width: 768px){
+
+    .contenedor-total{
+        font-size: 9px;
+    }
+
+    header{
+        padding: 8px;
+        height: 17vh;
+        margin: 2px auto;
+        letter-spacing: 1px;
+    }
+
+    .ilustracion p{
+        letter-spacing: 1px;
+        }
+}
+
+
+@media screen and (max-width: 576px){
+
+    .contenedor-total{
+        font-size: 8px;
+    }
+
+    header{
+        padding: 3px;
+        height: 15vh;
+        margin: 1px auto;
+        
+    }
+
+    .ilustracion p{
+        padding: 1px;   
+        letter-spacing: 0px;     
+    }
+
+}
+/*
+@media screen and (max-width: 360px){
+
+}
+
+*/
